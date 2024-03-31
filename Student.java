@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Student_Info{
 
     String name; // Removed the initialization here
     
@@ -31,5 +31,6 @@ public class Student {
         s.age = 19; // Set the age separately
         s.display();
         s.read();
+        s.stud_info();
     }
 }
